@@ -9,4 +9,4 @@ class ServiceModel(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.service_name
+        return self.name
